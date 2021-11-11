@@ -1,0 +1,53 @@
+*{
+cursor:default;
+padding:0px;
+margin:0px;
+color:white;
+font-size:16px;
+}/*Сброс отступов, белый цвет шрифта, размер шрифта*/
+h1, h2{
+font-size:150%;
+padding:10px 0px 15px 0px;
+}
+body{
+background:#060606;
+}
+a {
+color:white;
+text-decoration: none;
+}/*Все кнопки*/
+a:hover{
+color:white;
+border-top:2px solid white;
+border-bottom:2px solid white;
+transition: all .1s ease;
+}/*Все кнопки на которые навели курсор*/
+
+
+.button{
+position:fixed;
+left:20px;
+bottom:30px;
+} /*Кномка домой*/
+.button:hover{
+color:rgba(207, 181, 59);
+border:none;
+}
+
+.menu ul,.block ul{
+display:flex;
+justify-content:center;
+}/*Списки "с сылками"*/
+li{
+list-style-type: none;
+padding:0px 15px 15px 15px;
+}/*элементы списка*/
+
+/*********/
+::-webkit-scrollbar{
+width:5px;
+height:5px;
+}
+::-webkit-scrollbar-thumb{
+background:rgba(207, 181, 59);
+}

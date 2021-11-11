@@ -1,0 +1,39 @@
+.content{
+margin:10px auto;
+width:900px;
+height:400px;
+background-image:url('image/bg.jpg');
+background-repeat:no-repeat;
+/*border:2px solid white;*/
+}/*Первая страница*/
+ /*ТУТ АНИМАЦИЯ СЛАЙДЕРА*/
+.container_slider_css{
+margin:25px auto 50px;
+width:500px;
+height:400px;
+overflow:hidden;
+position:relative
+}
+
+.photo_slider_css{
+position:absolute;
+animation:round 16s infinite;
+opacity:0;
+width:100%;
+}
+
+@keyframes round {
+25%{opacity:1}
+40%{opacity:0}
+}
+img:nth-child(1){animation-delay:12s}
+img:nth-child(2){animation-delay:8s}
+img:nth-child(3){animation-delay:4s}
+img:nth-child(4){animation-delay:0}
+@media(min-width:0px) and (max-width:320px) {
+.container_slider_css{width:80%;height:190px}
+}
+@media(min-width:321px) and (max-width:480px) {
+.container_slider_css{width:80%;height:190px}
+}
+  /*ТУТ ЗАКАНЧИВАЕТСЯ АНИМАЦИЯ СЛАЙДЕРА*/

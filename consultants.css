@@ -1,0 +1,28 @@
+.consultants{
+width:1280px;
+height:720px;
+margin:0 auto;
+background-image:url('img/fon.jpg');
+display:flex;
+justify-content:center;
+}
+.con_block{
+background:rgba(255, 255, 255, .12);
+margin:70px 10px 10px;
+width:600px;
+height:500px;
+
+}
+.con_block p{
+padding:20px;
+}
+.con_block img{
+width:300px;
+height:250px;
+border-radius:0px 0px 30px 0px;
+}
+.con_block:hover{
+background:rgba(0, 0, 0, .69);
+transition:0.5s;
+box-shadow: 0px 0px 8px rgba(00, 00, 00);
+}
